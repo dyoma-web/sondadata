@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.next/
+*.duckdb
+*.duckdb.wal
+apps/worker/data/
+packages/fixtures/data/
+.env
+.env.local
+*.log
+
+# Material de referencia y estrategia interna (no se publica)
+Decopy-*.txt
+SONDA-AGENT-SPEC.md
+instruccion_maestra_mvp_datasketch.md
+gemini-code-*.md
+SondaData Wireframe.html
+docs/wireframe-copy.txt
