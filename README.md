@@ -6,7 +6,17 @@ minutos obtiene el modelo real de sus datos, un diagnóstico de calidad en
 lenguaje de negocio, un mapa de cruces posibles con predicción previa, y un
 informe exportable para comité.
 
-> **¿Evaluando el producto?** → [Guía del evaluador: SondaData en 10 minutos](docs/EVALUACION.md)
+## ▶ Probar sin instalar nada
+
+[![Abrir en GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/dyoma-web/sondadata?quickstart=1)
+
+Ese botón crea un entorno en la nube (gratuito con cualquier cuenta de GitHub)
+que instala y arranca la aplicación sola: en ~2 minutos se abre la vista previa
+de SondaData en el navegador. Pulse **«Usar datos de ejemplo →»** o arrastre
+sus propios archivos — sus datos se procesan dentro de su entorno, no salen a
+ningún servicio externo.
+
+> **Guía completa:** [Evaluar SondaData en 10 minutos](docs/EVALUACION.md)
 
 > **Principio rector:** DuckDB decide, el LLM narra. Toda afirmación de la UI
 > está respaldada por una consulta SQL trazable (`evidence`). Sin evidencia,

@@ -1,0 +1,22 @@
+{
+  "name": "SondaData",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "postCreateCommand": "corepack enable && pnpm install",
+  "postStartCommand": "bash -lc 'nohup pnpm dev >/tmp/sondadata-dev.log 2>&1 & sleep 1'",
+  "forwardPorts": [3000, 8787],
+  "portsAttributes": {
+    "3000": {
+      "label": "SondaData (aplicación)",
+      "onAutoForward": "openPreview"
+    },
+    "8787": {
+      "label": "Worker de análisis",
+      "onAutoForward": "silent"
+    }
+  },
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["docs/EVALUACION.md"]
+    }
+  }
+}

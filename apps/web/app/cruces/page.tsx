@@ -6,7 +6,7 @@ import Link from 'next/link';
 import type { AnalysisReport, BridgeProposal, JoinPrediction } from '@sondadata/schema';
 import { findIndirectRoutes } from '@sondadata/engine/routes';
 
-const WORKER = process.env.NEXT_PUBLIC_WORKER_URL ?? 'http://localhost:8787';
+const WORKER = process.env.NEXT_PUBLIC_WORKER_URL ?? '/api/worker';
 
 function fmtInt(n: number): string {
   return n.toLocaleString('es-CO');

@@ -23,7 +23,21 @@ datos heredada) y en menos de 10 minutos obtiene:
 proviene de una IA generativa; toda afirmación de la interfaz es clicable
 hasta llegar a su evidencia.
 
-## Cómo probarlo (local)
+## Cómo probarlo
+
+### Opción A — Sin instalar nada (recomendada)
+
+Pulse el botón **«Open in GitHub Codespaces»** del README (o entre a
+[codespaces.new/dyoma-web/sondadata](https://codespaces.new/dyoma-web/sondadata?quickstart=1)).
+Con cualquier cuenta gratuita de GitHub se crea un entorno en la nube que
+instala y arranca SondaData solo; en unos 2 minutos aparece la vista previa de
+la aplicación. Si la vista previa no se abre sola, use la pestaña **Ports** y
+haga clic en el puerto **3000**.
+
+Sus archivos se procesan dentro de ese entorno personal y desechable: no pasan
+por ningún servidor de terceros.
+
+### Opción B — En su computador
 
 Requisitos: Node 22+ y pnpm (`npm i -g pnpm`).
 

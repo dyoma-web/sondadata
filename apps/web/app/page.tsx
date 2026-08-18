@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { AnalysisJob, AnalysisReport } from '@sondadata/schema';
 
-const WORKER = process.env.NEXT_PUBLIC_WORKER_URL ?? 'http://localhost:8787';
+const WORKER = process.env.NEXT_PUBLIC_WORKER_URL ?? '/api/worker';
 
 /** Etiquetas en lenguaje llano para los tipos semánticos. */
 const TYPE_LABELS: Record<string, string> = {

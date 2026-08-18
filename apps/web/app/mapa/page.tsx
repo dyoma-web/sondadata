@@ -7,7 +7,7 @@ import { ReactFlow, Background, type Edge, type Node } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
 import type { AnalysisReport, Finding, Relationship, TableSource } from '@sondadata/schema';
 
-const WORKER = process.env.NEXT_PUBLIC_WORKER_URL ?? 'http://localhost:8787';
+const WORKER = process.env.NEXT_PUBLIC_WORKER_URL ?? '/api/worker';
 
 const SIGNAL_LABELS: Record<string, string> = {
   typeCompatibility: 'Compatibilidad de tipos',
